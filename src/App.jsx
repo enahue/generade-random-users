@@ -30,7 +30,7 @@ function App() {
           <h1 className="random-users">Random Users</h1>
           <div className="user-card-child">
             <img src={user?.picture.large} alt="" />
-            <h1>
+            <h1 className="title">
               {user?.name.first} {user?.name.last}
             </h1>
             <p>@{user?.login.username}</p>
